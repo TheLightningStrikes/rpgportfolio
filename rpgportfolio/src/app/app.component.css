@@ -1,0 +1,24 @@
+:host {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin: 0;
+}
+
+.app-wrapper {
+  text-align: center;
+  position: absolute;
+  height: 200px;
+  width: 1000px;
+  display: block;
+  background-color: orangered;
+  padding: 20px;
+  color: white;
+  font-family: "Arial Black", sans-serif;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}

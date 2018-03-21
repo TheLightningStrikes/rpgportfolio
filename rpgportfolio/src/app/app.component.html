@@ -1,0 +1,13 @@
+<div class="app-wrapper" (wheel)="onWheel($event)">
+  <ng-container [ngSwitch]="currentView">
+    <ng-container *ngSwitchCase="'campaign'">
+      <campaign *ngFor="let campaign of dataService.campaigns"></campaign>
+    </ng-container>
+    <ng-container *ngSwitchCase="'skill'">
+      <skill *ngFor="let campaign of dataService.skills"></skill>
+    </ng-container>
+    <ng-container *ngSwitchCase="'achievement'">
+      <achievement *ngFor="let campaign of dataService.achievement"></achievement>
+    </ng-container>
+  </ng-container>
+</div>
